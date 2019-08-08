@@ -1,6 +1,6 @@
 //接口请求函数,返回值是promise
 
-import ajax from 'ajax'
+import ajax from './ajax'
 
 const BASE='/api'
 const BASE2='/baidu'
