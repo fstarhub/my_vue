@@ -72,3 +72,17 @@ export const reqAutoLogin = () => ajax({
 })
 export const reqBaiDuXxx = () => ajax(BASE2 + '/xxx')
 
+/*
+ * 获取商家信息
+ */
+export const reqInfo = () => ajax('/info')
+
+/**
+ * 获取商家评价数组
+ */
+export const reqRatings = () => ajax('/ratings')
+
+/**
+ * 获取商家商品数组
+ */
+export const reqGoods = () => ajax('/goods')
