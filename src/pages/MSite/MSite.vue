@@ -47,8 +47,8 @@
 
   export default {
     
-    mounted (){
-      this.$store.dispatch('getAddress')
+     mounted (){
+      
       this.$store.dispatch('getShops')
       this.$store.dispatch('getCategorys',()=>{
         this.$nextTick(()=>{
@@ -64,7 +64,10 @@
     },
 
     computed: {
-      ...mapState(['address','categorys']),
+      ...mapState({
+        address:state=>state.msite.address,
+        categorys:state=>state.msite.categorys,
+        }),
     
       /* 
       分类的二维数组
