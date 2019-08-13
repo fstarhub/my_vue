@@ -24,8 +24,8 @@
 
     mounted (){
       this.$store.dispatch('getInfo')
-      this.$store.dispatch('getInfo')
-      this.$store.dispatch('getInfo')
+      this.$store.dispatch('getGoods')
+      this.$store.dispatch('getRatings')
     },
 
     components:{

@@ -7,7 +7,7 @@ import Star from 'components/Star/Star.vue'
 
 import store from './store'
 import './api'
-// import './mock/mock-server'
+import './mock/mock-server'
 //注册全局组件
 Vue.component('Header',Header)
 Vue.component('Star',Star)
