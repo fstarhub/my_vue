@@ -2,7 +2,11 @@
   <div id="app">
     <p>本地文件1</p>
   <p>远程修改1<p>
+<<<<<<< HEAD
     <p>本地修改2</p>
+=======
+  <p>远程修改2<p>
+>>>>>>> d3432f9de207a1964e34e71e88313fef2c3b1cb7
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
