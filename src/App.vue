@@ -1,6 +1,7 @@
 <template>
   <div id="app">
   <p>远程修改1<p>
+    <p>本地文件1</p>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
