@@ -3,6 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <p>本地写的内容</p>
+<p>我是远程上的矛盾<p>
   </div>
 </template>
 
