@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>本地文件1</p>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
